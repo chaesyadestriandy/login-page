@@ -1,0 +1,23 @@
+itu ntar manggil halaman nya pake route yaa
+
+misal mau manggil pages login, berarti nanti di main.jsx ditambahi route "/login" terus
+di import pages nya
+
+contoh:
+- buat manggil halaman login
+{
+    path: "/login",
+    element: <LoginPage />,
+},
+
+semisal mau buat halaman register berarti tambahin route nya
+
+{
+    path: "/register",
+    element: <LoginPage />,
+},
+
+nanti kalo mau lihat di tampilan browser tinggal localhost:{port nya berapa}/register kalo login
+berarti localhost:{port nya berapa}/login
+
+GITUU
